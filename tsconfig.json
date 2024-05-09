@@ -33,10 +33,12 @@
     }
   },
   "include": [
+    
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-  ],
+    "**/*.tsx",
+    "**/*.js"
+, "cypress/support/commands.js", "cypress.config.js"  ],
   "exclude": [
     "**/node_modules",
     "**/.*/"

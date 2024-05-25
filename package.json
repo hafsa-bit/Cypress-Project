@@ -1,6 +1,8 @@
 {
   "private": true,
   "scripts": {
+    "test:automationUsingFixtures": "npx cypress run --spec cypress/e2e/AutomationUsingFixtures.cy.js",
+    "test": "npx cypress run --record --key 19ee1554-5a03-4f1e-a974-800f3f1d67a2",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
